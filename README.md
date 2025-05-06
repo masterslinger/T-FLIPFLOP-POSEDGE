@@ -1,4 +1,3 @@
-
 ## T-FLIPFLOP-POSEDGE
 **AIM:**
 
@@ -44,8 +43,11 @@ From the above characteristic table, we can directly write the next state equati
 
 
 **PROGRAM**
-Developed by:Pugazhenthi S
-RegisterNumber:212224240120
+
+Developed by: Syed Abu Hanifa. L
+
+RegisterNumber:212224040346
+
 ```
 module TFLIPFLOPPOSEDGE( input clk, rst_n, input t,
 output reg q,
@@ -64,6 +66,7 @@ end
 assign q_bar = ~q;
 endmodule
 ```
+
 **RTL LOGIC FOR FLIPFLOPS**
 ![image](https://github.com/Priyanghaofficial/T-FLIPFLOP-POSEDGE/assets/147121154/7c415c3c-5248-4ffa-9393-ee8f1492152b)
 
